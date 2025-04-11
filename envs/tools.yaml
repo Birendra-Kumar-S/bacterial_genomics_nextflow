@@ -1,0 +1,8 @@
+# envs/tools.yaml
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - fastp
+  - skesa
+  - seqkit
