@@ -28,12 +28,11 @@ A modular Nextflow pipeline for bacterial genome QC and assembly, developed as p
 
 
 
+## Acknowledgements
 
+This pipeline was developed as part of the **Georgia Tech's BIOL7210 - Computational Genomics** course.
 
-
-
-
-
+I would also like to thank **[Dr. Christopher Gulvik](https://github.com/chrisgulvik)**, the instructor of the course, for his guidance and support throughout the coursework.
 
 
 
