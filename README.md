@@ -78,6 +78,8 @@ The included test data in the `test_data/` directory contains paired-end reads f
 
 ## Quick Start
 
+**Perform the below steps sequentially**
+
 ### Setup
 
 ```bash
@@ -88,7 +90,7 @@ cd bacterial_genomics_nextflow_pipeline
 
 ### Conda env installation
 
-**Would suggest to create a new conda env with nextflow installed as specified below**
+**Would suggest to create a new conda env with nextflow installed as specified below:**
 
 ```bash
 CONDA_SUBDIR=osx-64 conda create -n nf_test -c bioconda nextflow -y
