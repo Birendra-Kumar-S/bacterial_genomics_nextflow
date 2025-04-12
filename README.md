@@ -4,18 +4,18 @@ A modular Nextflow pipeline for bacterial genome QC and assembly, developed as p
 
 This repository contains a **Nextflow pipeline** for performing **quality control**, and assembling genomic sequences.
 
-📌 **Course**: BIOL7210 - Computational Genomics  
-📌 **Author**: S Birendra Kumar  
-📌 **Institution**: Georgia Tech  
-📌 **GitHub Repo**: `https://github.com/Birendra-Kumar-S/bacterial_genomics_nextflow`  
-📌 **Nextflow Version**: `24.10.4.5934`  
-📌 **Profile Used**: `conda`
+**Course**: BIOL7210 - Computational Genomics  
+**Author**: S Birendra Kumar  
+**Institution**: Georgia Tech  
+**GitHub Repo**: `https://github.com/Birendra-Kumar-S/bacterial_genomics_nextflow`  
+**Nextflow Version**: `24.10.4.5934`  
+**Package manager**: `conda`
 
 ## **Workflow Overview**
 This workflow **performs quality control, calculates trimmed read statistics and assembles genomic sequences.**  
 The pipeline supports **both sequential and parallel processing** to optimize execution.
 
-### **📌 Workflow Execution Order**
+### ** Workflow Execution Order**
 1️⃣ **Sequential Execution**:
 - **FASTP** → `SKESA` (Genome Assembly)
 
@@ -33,7 +33,10 @@ The pipeline supports **both sequential and parallel processing** to optimize ex
 - **READ statistics**
   - Calculation of quality filtered or trimmed reads' statistics using **SeqKit (v2.10.0)**
 
+## Requirements
 
+- [Nextflow](https://www.nextflow.io/) **(v24.10.0 or later)**
+- [conda](https://github.com/conda/conda) **(v25.3.0 or later)**
 
 
 ## DAG Workflow Diagram 
