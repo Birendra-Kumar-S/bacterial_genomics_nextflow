@@ -31,7 +31,7 @@ The pipeline supports **both sequential and parallel processing** to optimize ex
   - De novo genome assembly with SKESA
   
 - **READ statistics**
-  - Calculation of quality filtered or trimmed reads' statistics
+  - Calculation of quality filtered or trimmed reads' statistics using SeqKit
 
 
 
