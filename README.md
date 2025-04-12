@@ -2,7 +2,14 @@
 
 A modular Nextflow pipeline for bacterial genome QC and assembly, developed as part of Georgia Tech's BIOL7210 Computational Genomics course.
 
+This repository contains a **Nextflow pipeline** for performing **quality control**, and assembling genomic sequences.
 
+📌 **Course**: BIOL7210 - Computational Genomics  
+📌 **Author**: S Birendra Kumar  
+📌 **Institution**: Georgia Tech  
+📌 **GitHub Repo**: `https://github.com/Birendra-Kumar-S/bacterial_genomics_nextflow`  
+📌 **Nextflow Version**: `24.10.4.5934`  
+📌 **Profile Used**: `conda`
 
 
 
