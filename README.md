@@ -76,4 +76,25 @@ The included test data in the `test_data/` directory contains paired-end reads f
 - [SeqKit](https://github.com/shenwei356/seqkit) - Read Statistics
 
 
+## Quick Start
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/Birendra-Kumar-S/bacterial_genomics_nextflow_pipeline
+cd bacterial_genomics_nextflow_pipeline
+```
+
+### Conda env installation
+
+**Would suggest to create a new conda env with nextflow installed as specified below**
+
+```bash
+CONDA_SUBDIR=osx-64 conda create -n nf_test -c bioconda nextflow -y
+
+conda activate nf_test
+```
+
+
 
