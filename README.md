@@ -11,7 +11,16 @@ This repository contains a **Nextflow pipeline** for performing **quality contro
 📌 **Nextflow Version**: `24.10.4.5934`  
 📌 **Profile Used**: `conda`
 
+## **Workflow Overview**
+This workflow **performs quality control, calculates trimmed read statistics and assembles genomic sequences.**  
+The pipeline supports **both sequential and parallel processing** to optimize execution.
 
+### **📌 Workflow Execution Order**
+1️⃣ **Sequential Execution**:
+- **FASTP** → `SKESA` (Genome Assembly)
+
+2️⃣ **Parallel Execution**:
+- **FASTP** → `SEQKIT` (Read Statistics)
 
 
 
