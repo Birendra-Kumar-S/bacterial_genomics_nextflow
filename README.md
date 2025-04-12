@@ -46,7 +46,9 @@ Diagram illustrating the pipeline's workflow, showing the sequence of processes 
 
 
 
+### Test Data 
 
+The included test data in the `test_data/` directory contains paired-end reads from *Listeria monocytogenes* **(SRA accession: SRR1556289 & SRR1556296)**
 
 
 
