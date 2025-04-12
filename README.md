@@ -96,5 +96,9 @@ CONDA_SUBDIR=osx-64 conda create -n nf_test -c bioconda nextflow -y
 conda activate nf_test
 ```
 
+### Pipeline execution
 
+```bash
+nextflow run pipeline.nf -with-conda
+```
 
