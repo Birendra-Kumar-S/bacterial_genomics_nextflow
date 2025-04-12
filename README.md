@@ -38,6 +38,19 @@ The pipeline supports **both sequential and parallel processing** to optimize ex
 - [Nextflow](https://www.nextflow.io/) **(v24.10.0 or later)**
 - [conda](https://github.com/conda/conda) **(v25.3.0 or later)**
 
+### Tested Environment
+
+```bash
+System Version: macOS 15.3.2 (24D81)
+OS       : Sequoia 15.3.2
+Model Name: MacBook Pro
+Kernel   : Darwin 24.3.0
+Chip     : Apple M4
+Number of Cores: 10 (4 performance and 6 efficiency)
+RAM      : 16 GB
+Nextflow : v24.10.5
+Java     : OpenJDK 22 (via Conda)
+```
 
 ## DAG Workflow Diagram 
 Diagram illustrating the pipeline's workflow, showing the sequence of processes and their dependencies. Obtained using Nextflow's built-in DAG visualization tool.
@@ -64,19 +77,3 @@ The included test data in the `test_data/` directory contains paired-end reads f
 
 
 
-## Acknowledgements
-
-This pipeline was developed as part of the **Georgia Tech's BIOL7210 - Computational Genomics** course.
-
-I would also like to thank **[Dr. Christopher Gulvik](https://github.com/chrisgulvik)**, the instructor of the course, for his guidance and support throughout the coursework.
-
-
-
-## Contact
-
-For questions or issues specific to the repository, please submit an issue.
-For collaboration inquiries or general questions, feel free to reach out:
-
-**[S Birendra Kumar](https://www.linkedin.com/in/s-birendra-kumar/)**  
-MS Bioinformatics  
-*[skumar752](mailto:sbirendra2000@gatech.edu)*  
