@@ -25,13 +25,13 @@ The pipeline supports **both sequential and parallel processing** to optimize ex
 ### Key Features
 
 - **Read Processing**
-  - Quality control and adapter trimming with FASTP
+  - Quality control and adapter trimming with **FASTP (v0.24.0)**
   
 - **Assembly**
-  - De novo genome assembly with SKESA
+  - De novo genome assembly with **SKESA (v2.5.1)**
   
 - **READ statistics**
-  - Calculation of quality filtered or trimmed reads' statistics using SeqKit
+  - Calculation of quality filtered or trimmed reads' statistics using **SeqKit (v2.10.0)**
 
 
 
