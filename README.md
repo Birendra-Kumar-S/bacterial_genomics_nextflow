@@ -9,6 +9,12 @@ A modular Nextflow pipeline for bacterial genome QC and assembly, developed as p
 
 
 
+## DAG Workflow Diagram 
+Diagram illustrating the pipeline's workflow, showing the sequence of processes and their dependencies. Obtained using Nextflow's built-in DAG visualization tool.
+
+<div align="center">
+  <img src="workflow.png" alt="Dag flow" width="500"/>
+</div>
 
 
 
@@ -17,14 +23,12 @@ A modular Nextflow pipeline for bacterial genome QC and assembly, developed as p
 
 
 
+## Tools Used
 
-
-
-
-
-
-
-
+- [Nextflow](https://www.nextflow.io/) - Workflow engine (DSL2)
+- [FASTP](https://github.com/OpenGene/fastp) - Read quality control
+- [SKESA](https://github.com/ncbi/SKESA) - De novo assembly
+- [SeqKit](https://github.com/shenwei356/seqkit) - Read Statistics
 
 
 
