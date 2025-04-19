@@ -101,6 +101,7 @@ conda activate nf_test
 ### Pipeline execution
 
 ```bash
+export CONDA_SUBDIR=osx-64
 nextflow run pipeline.nf -with-conda
 ```
 
